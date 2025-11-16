@@ -2,7 +2,7 @@ const express = require('express');
 const { exec } = require('child_process');
 
 const app = express();
-const port = process.env.PORT || process.env.SERVER_PORT || 9032;
+const port = process.env.PORT || process.env.SERVER_PORT || 3000;
 
 // Endpoint root - tambahkan ini
 app.get('/', (req, res) => {
